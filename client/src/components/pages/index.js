@@ -1,0 +1,5 @@
+export * from "./Home"
+export * from "./Wellcome"
+export * from "./Ebook"
+export * from "./Store"
+export * from "./Contacts"
