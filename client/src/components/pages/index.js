@@ -1,5 +1,5 @@
 export * from "./Home"
 export * from "./Wellcome"
-export * from "./Ebook"
+export * from "./eBook"
 export * from "./Store"
 export * from "./Contacts"

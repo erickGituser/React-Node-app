@@ -1,21 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import sNav from './Navbar.module.css';
+import { FaHome } from 'react-icons/fa';
+
 const Navbar = () => {
     return (
         <nav>
-            <Link to="/">Home</Link>
+            <Link to="/" className={sNav.Home}><FaHome size='1.3rem'/> Home</Link>
             <ul>
                 <li>
-                    <Link to="/Wellcome">Wellcome</Link>
+                    <NavLink to="/Books">eBooks</NavLink>
                 </li>
                 <li>
-                    <Link to="/Ebook">eBooks</Link>
+                    <NavLink to="/Store">Store</NavLink>
                 </li>
                 <li>
-                    <Link to="/Store">Store</Link>
-                </li>
-                <li>
-                    <Link to="/Contacts">Contact</Link>
+                    <NavLink to="/Contact">Contact</NavLink>
                 </li>
             </ul>
         </nav>
