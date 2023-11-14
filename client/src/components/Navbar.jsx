@@ -6,7 +6,7 @@ import { FaHome } from 'react-icons/fa';
 const Navbar = () => {
     return (
         <nav>
-            <Link to="/" className={sNav.Home}><FaHome size='1.3rem'/> Home</Link>
+            <Link to="/" className={sNav.Home}><FaHome size='1.3rem'/> Black Tree</Link>
             <ul>
                 <li>
                     <NavLink to="/Books">eBooks</NavLink>
